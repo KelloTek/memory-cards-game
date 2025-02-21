@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-custom-black: #1f1f1f;
+    --color-custom-blue: #38bdf8;
+}
+
+.flipped {
+    transform: rotateY(179.9deg);
+}
+
+.image-container.flipped .image-front {
+    transform: rotateY(180deg);
+}
+
+.image-container.flipped .image-back {
+    transform: rotateY(0deg);
+}
